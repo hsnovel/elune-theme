@@ -1,4 +1,4 @@
-;;; elune-theme.el --- elune theme
+;;; elune-theme.el --- Elune theme
 
 ;; Copyright 2023 Çağan Korkmaz
 
