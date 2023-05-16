@@ -6,6 +6,8 @@
 Elune is a dark theme inspired by visual studio dark color scheme, it
 is modified for making it more readable.
 
+![elune-theme](https://user-images.githubusercontent.com/53369750/238607312-4207a62a-a289-46ab-813e-2b2bb750c5f3.png)
+
 ## Installation
 
 ### Manual
