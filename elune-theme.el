@@ -80,7 +80,7 @@
    `(vertical-border ((t (:foreground ,elune-bg-4))))
 
    ;; Rainbow Delimeters Mode
-   `(rainbow-delimiters-depth-1-face ((t (:foreground ,elune-str))))
+   `(rainbow-delimiters-depth-1-face ((t (:foreground ,elune-fg))))
 
 
 
