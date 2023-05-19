@@ -2,7 +2,7 @@
 
 ;; Copyright 2023 Çağan Korkmaz
 
-;; Author: Çağan Korkmaz <cagankorkmaz35@gmail.com>
+;; Author: Çağan Korkmaz <xcatalystt@gmail.com>
 ;; URL: https://github.com/xcatalyst/elune-theme
 ;; Version: 0.01
 
@@ -47,7 +47,8 @@
      (elune-select "#3c3c3d")
      (elune-compilation-g "#73c936")
      (elune-compilation-warn "#c98d40")
-     (elune-compilation-r "#bb2626"))
+     (elune-compilation-r "#bb2626")
+     (elune-whitespace-line "#9e3131"))
 
 
   (custom-theme-set-faces 'elune
@@ -118,7 +119,7 @@
    `(whitespace-space ((t (:background ,elune-bg :foreground ,elune-bg-2))))
    `(whitespace-tab ((t (:background ,elune-bg :foreground ,elune-bg-3))))
    `(whitespace-hspace ((t (:background ,elune-bg-2 :foreground ,elune-bg))))
-   `(whitespace-line ((t  (:background ,elune-bg-2 :foreground ,elune-str))))
+   `(whitespace-line ((t  (:background ,elune-bg-2 :foreground ,elune-compilation-r :bold t))))
 
    `(whitespace-newline ((t (:background ,elune-bg-2 :foreground ,elune-bg-3))))
    `(whitespace-trailing ((t (:background ,elune-bg :foreground ,elune-str))))
