@@ -122,7 +122,7 @@
 
    `(whitespace-newline ((t (:background ,elune-bg-2 :foreground ,elune-bg-3))))
    `(whitespace-trailing ((t (:background ,elune-bg :foreground ,elune-str))))
-   `(whitespace-empty ((t (:background ,elune-bg-2
+   `(whitespace-empty ((t (:background ,elune-bg-3
 				 :foreground ,elune-fg-2))))
    `(whitespace-indentation ((t (:background ,elune-bg-3 :foreground ,elune-fg-2))))
    `(whitespace-space-after-tab ((t (:background ,elune-bg-3 :foreground ,elune-fg-2))))
