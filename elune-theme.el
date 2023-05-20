@@ -67,6 +67,9 @@
    `(font-lock-type-face ((t (:foreground ,elune-type ))))
    `(font-lock-constant-face ((t (:foreground ,elune-fg ))))
    `(font-lock-variable-name-face ((t (:foreground ,elune-fg))))
+   `(highlight ((t (:background ,elune-bg-3 :foreground nil))))
+   `(highlight-current-line-face ((t ,(list :background elune-bg-3
+					    :foreground nil))))
    `(minibuffer-prompt ((t (:foreground ,elune-fg-3))))
 
    `(show-paren-match ((t (:background ,elune-bg-3))))
