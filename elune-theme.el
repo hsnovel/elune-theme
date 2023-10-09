@@ -119,7 +119,7 @@
    ;; Which Function
    `(which-func ((t (:foreground ,elune-fg-3))))
    ;; Whitespace
-   `(whitespace-space ((t (:background ,elune-bg :foreground ,elune-bg-2))))
+   `(whitespace-space ((t (:background ,elune-bg :foreground ,elune-bg-4))))
    `(whitespace-tab ((t (:background ,elune-bg :foreground ,elune-bg-3))))
    `(whitespace-hspace ((t (:background ,elune-bg-2 :foreground ,elune-bg))))
    `(whitespace-line ((t  (:background ,elune-bg-2 :foreground ,elune-compilation-r :bold t))))
