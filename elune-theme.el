@@ -57,7 +57,7 @@
    `(fringe ((t (:background ,elune-bg))))
    `(mode-line ((t (:foreground ,elune-fg-5 :background ,elune-type))))
    `(mode-line-inactive ((t (:foreground ,elune-fg-5 :background ,elune-bg-inactive))))
-   `(region ((t (:background ,elune-select ))))
+   `(region ((t (:foreground, elune-whitespace-line))))
    '(secondary-selection ((t (:background "#3e3834" ))))
    `(font-lock-builtin-face ((t (:foreground ,elune-keyword :bold t ))))
    `(font-lock-comment-face ((t (:italic t :foreground ,elune-comment))))
